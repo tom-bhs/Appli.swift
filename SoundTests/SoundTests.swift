@@ -1,14 +1,14 @@
 //
-//  SounddddTests.swift
-//  SounddddTests
+//  SoundTests.swift
+//  SoundTests
 //
 //  Created by Tom Bihoues on 19/05/2024.
 //
 
 import XCTest
-@testable import Soundddd
+@testable import Sound
 
-final class SounddddTests: XCTestCase {
+final class SoundTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

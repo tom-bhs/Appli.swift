@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Soundddd
+//  Sound
 //
 //  Created by Tom Bihoues on 19/05/2024.
 //

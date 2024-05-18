@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  Soundddd
+//  Sound
 //
 //  Created by Tom Bihoues on 19/05/2024.
 //
@@ -31,7 +31,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "Soundddd")
+        container = NSPersistentContainer(name: "Sound")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
